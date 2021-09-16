@@ -14,3 +14,7 @@ h3 {
 .bluE {
 	color: #006ee6;
 }
+@viewport {
+	zoom: 1.0;
+	width: extend-to-zoom;
+}

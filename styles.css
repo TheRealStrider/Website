@@ -5,3 +5,7 @@
 	font-family: "Times New Roman";
 	color: #FF0000;
 }
+@viewport {
+	zoom: 1.0;
+	width: extend-to-zoom;
+}
