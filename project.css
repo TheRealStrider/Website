@@ -1,0 +1,26 @@
+body, html{
+	min-height: 100%;
+}
+body{
+	background-image: url("mainbg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}#titleP{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+#titleP a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.para{
+	color: white;
+	text-align: center;
+}
+.para a{
+    font-family: 'Gemunu Libre', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}

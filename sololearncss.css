@@ -18,3 +18,14 @@ h3 {
 	zoom: 1.0;
 	width: extend-to-zoom;
 }
+#projects{
+    color: black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+#projects a{
+    text-decoration: none;
+	text-align: center;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
