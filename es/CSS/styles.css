@@ -1,0 +1,136 @@
+body, html{
+	min-height: 100%;
+}
+body{
+	background-image: url("../../Images/mainbg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#projectTab {
+	padding: 0;
+	background-color: rgba(0, 0, 255, 0.1);
+	position: absolute;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+	top: 200px;
+	left: 0px;
+}
+#projectHead{
+	background-color: rgba(0, 0, 255, 0.6);
+	display: flex;
+	margin-bottom: 10px;
+	justify-content: center;
+}
+#projectHead h3{
+	font-family: "Times New Roman";
+	color: white;
+	text-align: center;
+	font-size: 5px;
+}
+#projectHead h3 a{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+}
+#projectHead h3:hover{
+	background-color: #2986CC;
+}
+#projectTab p{
+	font-family: 'Gemunu Libre', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 14px;
+}
+.para{
+	font-family: 'Gemunu Libre', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
+.discord {
+    display: none;
+	position: relative;
+	top: 15rem;
+	margin: auto;
+	width: 350px;
+}
+#discord{
+	position: relative;
+	text-align: center;
+	top: 15rem;
+}
+#discord p{
+	font-family: 'Gemunu Libre', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 20px;
+}
+#discord p a{
+	color: white;
+}
+@viewport {
+	zoom: 1.0;
+	width: extend-to-zoom;
+}
+@media only screen and (min-width: 800px){
+	.discord{
+		display: flex;
+	}
+	#discord{
+		display: none;
+	}
+}
+@media only screen and (min-width: 768px){
+	#projectTab {
+		padding: 0;
+		background-color: rgba(0, 0, 255, 0.1);
+		position: relative;
+		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+		top: 5rem;
+		margin-right: auto;
+		margin-left: auto;
+		width: 80%;
+	}
+	#projectHead{
+		background-color: rgba(0, 0, 255, 0.6);
+		display: flex;
+		margin-bottom: 10px;
+		justify-content: center;
+	}
+	#projectHead h3{
+		font-family: "Times New Roman";
+		color: white;
+		text-align: center;
+	}
+	#projectHead h3 a{
+		text-decoration: none;
+		color: white;
+		font-size: 40px;
+		font-family: 'Montserrat', sans-serif;
+	}
+	#projectHead h3:hover{
+		background-color: #2986CC;
+	}
+	#projectTab p{
+		text-align: center;
+		font-size: 20px;
+	}
+	.para{
+		font-size: 20px;
+		text-align: center;
+	}
+	.discord {
+		position: relative;
+		display: block;
+		top: 10rem;
+		margin: auto;
+		width: 350px;
+	}
+}
+@media only screen and (min-width: 1000px){
+	.discord {
+		top: 7rem;
+	}
+}
