@@ -4,3 +4,5 @@ This is my first time making a website that others can see and not just me. My c
 
 I plan on having several projects on this website in which they are simple things. I also plan to learn other types of code languages to help improve this website.
 That is all for now!
+
+Added support for Spanish language (Note I do not know Spanish very well and used a translator!)
