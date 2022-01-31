@@ -1,43 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Home</title>
-		<link rel="stylesheet" href="CSS/styles.css">
-		<link rel="stylesheet" href="CSS/navbar.css">
-		<!--Font for title of box-->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
-		<!--Font for text-->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&family=Montserrat:wght@600&display=swap" rel="stylesheet">
-	</head>
-	<body>
-		<!-- NAVBAR -->
-		<nav class="navbar">
-			<div class="brand-title">TheRealStrider</div>
-			<div class="flag-us"><a href=""><img src="Images/usa.png" alt="English" width="50"></a></div>
-			<div class="flag-spain"><a href="es/index.html"><img src="Images/spain.png" alt="Español" width="50"></a></div>
-		</nav>
-		<!-- Body -->
-		<div class="para">
-			<p>Hello there traveler! Take a look around the website and see what I have in store for you. <br> This website is currently being made and is under development so anything you see is not final.</p>
-		</div>
-			<!--Project Box-->
-		<div id="projectTab">
-			<div id="projectHead">
-				<h3><a href="projects.html">Projects</a></h3>
-			</div>
-			<p>Projects are things I am currently working on or have completed in the past. <br> They can be from simple webpages to programs or files for other things. <br> Click the Projects title to see them!</p>
-		</div>
-		<div class="discord">
-			<iframe src="https://discord.com/widget?id=858891552155500585&theme=dark" width="350" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-		</div>
-		<div id="discord">
-			<p><a href="https://discord.gg/N4dNKz7bDg">Discord Server</a></p>
-		</div>
-	</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Home</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <!--Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pushster&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--NavBar-->
+        <header>
+            <span class="logo">Strider Studios</span>
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                </ul>
+            </nav>
+            
+            <p class="menu cta">Menu</p>
+            <div class="overlay">
+                <a class="close">&times;</a>
+                <div class="overlay__content">
+                    <a href="">Home</a>
+                    <a href="projects.html">Projects</a>
+                    <br>
+                    <br>
+                    <span>Socials</span>
+                    <ul>
+                        <li><a href="https://twitter.com/The_RealStrider" target="_blank">Twitter</a></li>
+                        <li><a href="https://www.youtube.com/c/TheRealStrider" target="_blank">YouTube</a></li>
+                        <li><a href="https://discord.gg/NNYh4gR6hv" target="_blank">Discord</a></li>
+                    </ul>
+                    <span>Translate</span>
+                    <ul>
+                        <li><a href="">English</a></li>
+                        <li><a href="es/index.html">Spanish</a></li>
+                        <li><a href="de/index.html">German</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!--Webpage-->
+        <div class="flexbox">
+            <!--First element-->
+            <div class="wrapper">
+                <h1>Strider Studios</h1>
+                <p>Welcome to Strider Studios, home to the creations made by TheRealStrider. <br>
+                    Why not look around and see what I got in store for you?</p>
+            </div>
+            <!--Second element-->
+            <div class="wrapper2">
+                    <h3>Welcome to Strider Studios!</h3>
+                <p>Hello there traveller! Welcome to a website showcasing all of the things I have made throughout the years. My goal is to have fun creating things others can enjoy. This can be as simple as a mod for Minecraft to a game that you can play. This website alone is a project for me and a way to show what I have done for others to see. Can't wait for you to see the projects, go ahead and check them out!</p>
+                <img src="pictures/logo.png" alt="Logo">
+            </div>
+        </div>
+        <!--NavBar-->
+        <footer>
+            <span class="logo">Strider Studios</span>
+            <nav>
+                <ul class="socials">
+                    <li class="FLhead">Socials</li>
+                    <li><a href="https://twitter.com/The_RealStrider" target="_blank">Twitter</a></li>
+                    <li><a href="https://www.youtube.com/c/TheRealStrider" target="_blank">YouTube</a></li>
+                    <li><a href="https://discord.gg/NNYh4gR6hv" target="_blank">Discord</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul class="translate">
+                    <li class="FLhead">Translate Page</li>
+                    <li><a href="">English</a></li>
+                    <li><a href="es/index.html">Spanish</a></li>
+                    <li><a href="de/index.html">German</a></li>
+                </ul>
+            </nav>
+        </footer>
+        <!--Mobile-->
+        <script type="text/javascript" src="mobile.js"></script>
+    </body>
 </html>

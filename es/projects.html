@@ -1,30 +1,90 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Proyectos</title>
-		<link rel="stylesheet" href="CSS/project.css">
-		<link rel="stylesheet" href="CSS/navbar.css">
-		<script src="script.js" defer></script>
-		<!--Font for title of box-->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
-		<!--Font for text-->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&family=Montserrat:wght@600&display=swap" rel="stylesheet">
-	</head>
-	<body>
-		<!-- NAVBAR -->
-		<nav class="navbar">
-			<div class="brand-title">TheRealStrider</div>
-			<div class="flag-us"><a href="../projects.html"><img src="../Images/usa.png" alt="English" width="50"></a></div>
-			<div class="flag-spain"><a href=""><img src="../Images/spain.png" alt="Español" width="50"></a></div>
-		</nav>
-		<h1 id="titleP"><a href="index.html">Volver a la página principal</a></h1>
-		<p class="para"><a href="SoloLearnWebsite.html">Cosas aprendidas en SoloLearn</a></p>
-		<p class="para"><a href="insidepc.html">Dentro de un PC de Escritorio</a></p>
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos</title>
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/project.css">
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pushster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--NavBar-->
+    <header>
+        <span class="logo">Strider Studios</span>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="index.html">Hogar</a></li>
+                <li><a href="">Proyectos</a></li>
+            </ul>
+        </nav>
+    
+        <p class="menu cta">Menú</p>
+        <div class="overlay">
+            <a class="close">&times;</a>
+            <div class="overlay__content">
+                <a href="index.html">Hogar</a>
+                <a href="">Proyectos</a>
+                <br>
+                <br>
+                <span>Socials</span>
+                <ul>
+                    <li><a href="https://twitter.com/The_RealStrider" target="_blank">Twitter</a></li>
+                    <li><a href="https://www.youtube.com/c/TheRealStrider" target="_blank">YouTube</a></li>
+                    <li><a href="https://discord.gg/NNYh4gR6hv" target="_blank">Discord</a></li>
+                </ul>
+                <span>Tranducir</span>
+                <ul>
+                    <li><a href="../projects.html">Inglés</a></li>
+                    <li><a href="">Español</a></li>
+                    <li><a href="../de/projects.html">Alemán</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="flexbox">
+        <div class="wrapper">
+            <h1>Proyectos</h1>
+            <p>Lo siento, pero no hay proyectos a partir de ahora.<br> En su lugar, ¡eche un vistazo al estilo anterior de este <a id="lol" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" onclick="myFunction()">página</a>!</p>
+            <p id="imagine">En serio, no puedo creer que te hayas enamorado de eso...</p>
+        </div>
+    </div>
+    <!--NavBar-->
+    <footer>
+        <span class="logo">Strider Studios</span>
+        <nav>
+            <ul class="socials">
+                <li class="FLhead">Socials</li>
+                <li><a href="https://twitter.com/The_RealStrider" target="_blank">Twitter</a></li>
+                <li><a href="https://www.youtube.com/c/TheRealStrider" target="_blank">YouTube</a></li>
+                <li><a href="https://discord.gg/NNYh4gR6hv" target="_blank">Discord</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul class="translate">
+                <li class="FLhead">Traducir Página</li>
+                <li><a href="../projects.html">Inglés</a></li>
+                <li><a href="">Español</a></li>
+                <li><a href="../de/projects.html">Alemán</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <!--Mobile-->
+    <script type="text/javascript" src="mobile.js"></script>
+    <!--Lol-->
+    <script>
+        function closeTroll() {
+                document.getElementById("imagine").style.opacity = "0";
+            }
+
+        function myFunction() {
+            document.getElementById('imagine').style.opacity = "100";
+            window.setTimeout(closeTroll, 10000);
+        }
+    </script>
+</body>
 </html>

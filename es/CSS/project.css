@@ -1,26 +1,44 @@
-body, html{
-	min-height: 100%;
-}
 body{
-	background-image: url("../../Images/mainbg.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-}#titleP{
-    color: white;
+    background-color: #161616;
+}
+
+.flexbox{
+    display: flex;
+    height: 90em;
+    flex-direction:column;
+}
+
+.wrapper h1{
+    display:block;
+    color: #edf0f1;
+    font-family: 'Pushster', cursive;
+    font-weight: 400;
+    font-size: 90px;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
 }
-#titleP a{
+
+.wrapper p{
+    padding-top: 2em;
+    display: block;
+    text-align: center;
+    color: #edf0f1;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.wrapper p a{
+    color: #B9D9EB;
     text-decoration: none;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
+    transition: color 1s;
 }
-.para{
-	color: white;
-	text-align: center;
+
+.wrapper p a:hover{
+    color: red;
 }
-.para a{
-    font-family: 'Gemunu Libre', sans-serif;
-	font-family: 'Montserrat', sans-serif;
-	color: white;
+
+#imagine{
+    opacity: 0;
+    color: red;
+    transition: 1s;
 }
