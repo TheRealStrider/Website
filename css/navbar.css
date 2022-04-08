@@ -29,7 +29,7 @@ footer {
 .nav__links a,
 .cta,
 .overlay__content a,
-.socials a, .translate a {
+.socials a{
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: #edf0f1;
@@ -105,24 +105,6 @@ footer {
 }
 
 .socials li a:hover {
-  color: #B9D9EB;
-}
-
-.translate {
-  list-style: none;
-  
-}
-
-.translate li {
-  padding: 0px 20px;
-  font-size: 15px;
-}
-
-.translate li a {
-  transition: color 0.3s ease 0s;
-}
-
-.translate li a:hover {
   color: #B9D9EB;
 }
 
