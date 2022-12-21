@@ -32,18 +32,17 @@ body{
     font-size: 20px;
 }
 
-.wrapper p a{
+#lol{
     color: #B9D9EB;
     text-decoration: none;
     transition: color 1s;
 }
 
-.wrapper p a:hover{
+#lol:hover{
     color: red;
 }
 
 #imagine{
     opacity: 0;
     color: red;
-    transition: 1s;
 }
