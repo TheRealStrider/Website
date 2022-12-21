@@ -4,6 +4,3 @@ This is my first time making a website that others can see and not just me. My c
 
 I plan on having several projects on this website in which they are simple things. I also plan to learn other types of code languages to help improve this website.
 That is all for now!
-
-UPDATE:
-Removed Spanish and German translations as Google Translate is allowed. (I used it to translate anyways.)
