@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Pushster&display=swap");
-/*font-family: 'Pushster', cursive;*/
-@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 /*font-family: 'Secular One', sans-serif;*/
+/*font-family: 'Courgette', cursive;*/
 
 /*Flexbox*/
 
@@ -22,8 +20,7 @@
 .wrapper h1{
     display:block;
     color: #edf0f1;
-    font-family: 'Pushster', cursive;
-    font-weight: 400;
+    font-family: 'Courgette', cursive;
     font-size: 90px;
     text-align: center;
 }
@@ -34,7 +31,6 @@
     text-align: center;
     color: #edf0f1;
     font-family: 'Secular One', sans-serif;
-    font-weight: 400;
     font-size: 20px;
 }
 
@@ -53,7 +49,6 @@
     padding-top: 2em;
     color: #edf0f1;
     font-family: 'Secular One', sans-serif;
-    font-weight: 400;
     font-size: 50px;
 }
 
@@ -65,7 +60,6 @@
     padding-right: 1em;
     color: #edf0f1;
     font-family: 'Secular One', sans-serif;
-    font-weight: 400;
     font-size: 20px;
     max-width: 35em;
 }
@@ -80,12 +74,30 @@
 
 /*For mobile*/
 
-@media screen and (max-width: 1280px){
-    
+@media screen and (max-width: 1580px){
+
     .wrapper2 img{
-        top: 3em;
-        left: 50em;
+        top: 2em;
+        left: 60em;
         width: 20em;
+    }
+}
+
+@media screen and (max-width: 1380px){
+
+    .wrapper2 img{
+        top: 4em;
+        left: 55em;
+        width: 15em;
+    }
+}
+
+@media screen and (max-width: 1200px){
+
+    .wrapper2 img{
+        top: 6em;
+        left: 50em;
+        width: 10em;
     }
 }
 
@@ -102,7 +114,7 @@
     }
 }
 
-@media screen and (max-width: 430px){
+@media screen and (max-width: 650px){
     
     .wrapper{
         padding-top: 1em;
@@ -119,23 +131,38 @@
     }
 
     .wrapper2 h3{
-        padding-left: 1em;
+        padding-left: 2em;
         font-size: 25px;
     }
 
     .wrapper2 p{
-        padding-left: 1em;
+        padding-left: 2em;
         font-size: 15px;
     }
 
     .wrapper2 img{
         width: 7em;
         top: 13em;
+        left: 12em;
+    }
+}
+
+@media screen  and (max-width: 430px){
+
+    .wrapper2 h3{
+        padding-left: 1em;
+    }
+
+    .wrapper2 p{
+        padding-left: 1em;
+    }
+
+    .wrapper2 img{
         left: 10em;
     }
 }
 
-@media screen and (max-width: 280px){
+@media screen and (max-width: 360px){
     
     .wrapper2{
         padding-bottom: 25em;

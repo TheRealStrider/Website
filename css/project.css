@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Pushster&display=swap");
-/*font-family: 'Pushster', cursive;*/
-@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 /*font-family: 'Secular One', sans-serif;*/
+/*font-family: 'Courgette', cursive;*/
 
 body{
     background-color: #161616;
@@ -16,8 +14,7 @@ body{
 .wrapper h1{
     display:block;
     color: #edf0f1;
-    font-family: 'Pushster', cursive;
-    font-weight: 400;
+    font-family: 'Courgette', cursive;
     font-size: 90px;
     text-align: center;
 }
@@ -28,7 +25,6 @@ body{
     text-align: center;
     color: #edf0f1;
     font-family: 'Secular One', sans-serif;
-    font-weight: 400;
     font-size: 20px;
 }
 

@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-/*font-family: 'Montserrat', sans-serif;*/
-@import url("https://fonts.googleapis.com/css2?family=Pushster&display=swap");
-/*font-family: 'Pushster', cursive;*/
+/*font-family: 'Secular One', sans-serif;*/
+/*font-family: 'Courgette', cursive;*/
 
 * {
   box-sizing: border-box;
@@ -25,8 +23,7 @@ footer {
 }
 
 .logo {
-  font-family: 'Pushster', cursive;
-  font-weight: 400;
+  font-family: 'Courgette', cursive;
   color: #edf0f1;
   font-size:30px;
 }
@@ -35,8 +32,7 @@ footer {
 .cta,
 .overlay__content a,
 .socials a{
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-family: 'Courgette', cursive;
   color: #edf0f1;
   text-decoration: none;
 }
@@ -114,8 +110,7 @@ footer {
 }
 
 .FLhead{
-  font-family: 'Pushster', cursive;
-  font-weight: 400;
+  font-family: 'Courgette', cursive;
   color:#edf0f1;
 }
 /* Mobile Nav */
@@ -163,8 +158,7 @@ footer {
 }
 
 .overlay span{
-  font-family: 'Pushster', cursive;
-  font-weight: 400;
+  font-family: 'Courgette', cursive;
   color:#edf0f1;
   font-size: 3em;
 }
