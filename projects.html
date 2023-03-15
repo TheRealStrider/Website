@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <!--NavBar-->
@@ -46,10 +47,10 @@
     <div class="flexbox">
         <div class="wrapper">
             <h1>Projects</h1>
-            <p>Sorry but there are no projects as of right now.<br> Instead, have a look at the previous style of this <a id="lol" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" onclick="myFunction()">page</a>!</p>
-            <p id="imagine">I seriously cannot believe you fell for that...</p>
+            <div id="project"></div>
         </div>
     </div>
+
     <!--NavBar-->
     <footer>
         <span class="logo">Strider Studios</span>
@@ -64,7 +65,13 @@
     </footer>
     <!--Mobile-->
     <script type="text/javascript" src="JS/mobile.js"></script>
-    <!--Lol-->
-    <script src="JS/project.js" defer></script>
+
+    <!-- Load React. -->
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/javascript" src="JS/functions.js"></script>
+    <script type="text/babel" src="JS/project.js"></script>
+
 </body>
 </html>

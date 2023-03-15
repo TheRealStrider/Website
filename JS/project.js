@@ -1,12 +1,16 @@
-let troll = document.getElementById("imagine");
-troll.style.opacity = "0";
-troll.style.transition = "1s";
+//Look at functions.js for the functions for the projects
+const root = ReactDOM.createRoot(document.getElementById('project'));
 
-function closeTroll() {
-    troll.style.opacity = "0";
+function test(){
+    return (
+        <content className={"works"}>
+            <div id={"cwm"} onClick={MyMod}>
+                <h2>Colored Wood Mod</h2>
+                <img src={"../pictures/mymod.png"} alt={"Example of the mod"} />
+                <p>This Minecraft mod adds in colored wood so you can have more colors to your houses.</p>
+            </div>
+        </content>
+    );
 }
 
-function myFunction() {
-    troll.style.opacity = "100";
-    window.setTimeout(closeTroll, 10000);
-}
+root.render(test());

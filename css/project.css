@@ -1,44 +1,101 @@
 /*font-family: 'Secular One', sans-serif;*/
 /*font-family: 'Courgette', cursive;*/
 
-body{
+body {
     background-color: #161616;
 }
 
-.flexbox{
+.flexbox {
     display: flex;
     height: 90em;
     flex-direction:column;
 }
 
-.wrapper h1{
+.wrapper h1 {
     display:block;
     color: #edf0f1;
     font-family: 'Courgette', cursive;
-    font-size: 90px;
+    font-size: 5vw;
     text-align: center;
 }
 
-.wrapper p{
-    padding-top: 2em;
+#project {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.works {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.works > * {
+    margin: 1rem;
+}
+
+#cwm {
     display: block;
+    max-width: 20vw;
     text-align: center;
-    color: #edf0f1;
-    font-family: 'Secular One', sans-serif;
+    padding: 20px 0 20px 0;
+    background-color: rgba(0, 136, 169, 0.2);
+    cursor: pointer;
+}
+
+#cwm h2 {
     font-size: 20px;
 }
 
-#lol{
-    color: #B9D9EB;
-    text-decoration: none;
-    transition: color 1s;
+#cwm img {
+    width: 100%;
+    padding-top: 1rem;
 }
 
-#lol:hover{
-    color: red;
+#cwm p {
+    font-size: 15px;
 }
 
-#imagine{
-    opacity: 0;
-    color: red;
+@media screen and (max-width: 1600px) {
+    #cwm {
+        max-width: 30vw;
+    }
+}
+
+@media screen and (max-width: 912px) {
+
+    .wrapper h1 {
+        font-size: 7vw;
+    }
+
+    #cwm {
+        max-width: 40vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .wrapper h1 {
+        font-size: 13vw;
+    }
+
+    .works {
+        flex-direction: column;
+    }
+
+    .works > * {
+        margin: 3vw auto auto auto;
+    }
+
+    #cwm {
+        max-width: 80vw;
+    }
+}
+
+@media screen and (max-width: 280px) {
+
+    .wrapper h1 {
+        font-size: 15vw;
+    }
+
 }
