@@ -69,6 +69,7 @@
     position: relative;
     left: 65em;
     width: 25em;
+    height: 25em;
     border-radius: 50%;
 }
 
@@ -80,6 +81,7 @@
         top: 2em;
         left: 60em;
         width: 20em;
+        height: 20em;
     }
 }
 
@@ -89,6 +91,7 @@
         top: 4em;
         left: 55em;
         width: 15em;
+        height: 15em;
     }
 }
 
@@ -98,6 +101,7 @@
         top: 6em;
         left: 50em;
         width: 10em;
+        height: 10em;
     }
 }
 
@@ -110,7 +114,6 @@
     .wrapper2 img{
         top: 18em;
         left: 20em;
-        width: 10em;
     }
 }
 
@@ -142,6 +145,7 @@
 
     .wrapper2 img{
         width: 7em;
+        height: 7em;
         top: 13em;
         left: 12em;
     }

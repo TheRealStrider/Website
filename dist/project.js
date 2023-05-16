@@ -11,7 +11,8 @@ function test() {
   }, /*#__PURE__*/React.createElement("h2", null, "Colored Wood Mod"), /*#__PURE__*/React.createElement("img", {
     src: "../pictures/mymod.webp",
     alt: "Example of the mod",
-    width: 200
+    width: 200,
+    height: 200
   }), /*#__PURE__*/React.createElement("p", null, "This Minecraft mod adds in colored wood so you can have more colors to your houses.")));
 }
 root.render(test());
