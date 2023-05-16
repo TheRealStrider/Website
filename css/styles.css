@@ -12,7 +12,7 @@
 /*First element*/
 
 .wrapper{
-    background-image: url("../pictures/mainbg.jpg");
+    background-image: url("../pictures/mainbg.webp");
     padding-top: 10em;
     padding-bottom:15em;
 }
@@ -42,7 +42,7 @@
     padding-bottom: 20em;
 }
 
-.wrapper2 h3{
+.wrapper2 h2{
     display: block;
     padding-left: 3em;
     padding-right: 1em;
@@ -130,7 +130,7 @@
         padding-bottom: 15em;
     }
 
-    .wrapper2 h3{
+    .wrapper2 h2{
         padding-left: 2em;
         font-size: 25px;
     }
@@ -149,7 +149,7 @@
 
 @media screen  and (max-width: 430px){
 
-    .wrapper2 h3{
+    .wrapper2 h2{
         padding-left: 1em;
     }
 

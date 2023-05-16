@@ -6,7 +6,7 @@ function test(){
         <content className={"works"}>
             <div id={"cwm"} onClick={MyMod}>
                 <h2>Colored Wood Mod</h2>
-                <img src={"../pictures/mymod.png"} alt={"Example of the mod"} />
+                <img src={"../pictures/mymod.webp"} alt={"Example of the mod"} width={200}/>
                 <p>This Minecraft mod adds in colored wood so you can have more colors to your houses.</p>
             </div>
         </content>
