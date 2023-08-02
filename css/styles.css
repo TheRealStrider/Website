@@ -13,6 +13,7 @@
 
 .wrapper{
     background-image: url("../pictures/mainbg.webp");
+    background-size: cover;
     padding-top: 10em;
     padding-bottom:15em;
 }
@@ -44,7 +45,7 @@
 
 .wrapper2 h2{
     display: block;
-    padding-left: 3em;
+    padding-left: 7em;
     padding-right: 1em;
     padding-top: 2em;
     color: #edf0f1;
@@ -56,24 +57,41 @@
     display: block;
     position: absolute;
     padding-top: 5em;
-    padding-left: 8em;
+    padding-left: 20em;
     padding-right: 1em;
     color: #edf0f1;
     font-family: 'Secular One', sans-serif;
     font-size: 20px;
-    max-width: 35em;
+    max-width: 50em;
 }
 
 .wrapper2 img{
     display: block;
     position: relative;
-    left: 65em;
+    left: 110em;
     width: 25em;
     height: 25em;
     border-radius: 50%;
 }
 
 /*For mobile*/
+
+@media screen and (max-width: 1920px){
+
+    .wrapper2 h2{
+        padding-left: 3em;
+    }
+
+    .wrapper2 p {
+        padding-left: 8em;
+        padding-right: 1em;
+        max-width: 35em;
+    }
+
+    .wrapper2 img{
+        left: 65em;
+    }
+}
 
 @media screen and (max-width: 1580px){
 

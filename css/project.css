@@ -12,10 +12,10 @@ body {
 }
 
 .wrapper h1 {
-    display:block;
+    display: block;
     color: #edf0f1;
     font-family: 'Courgette', cursive;
-    font-size: 5vw;
+    font-size: 4vw;
     text-align: center;
 }
 
@@ -55,6 +55,12 @@ body {
 
 #cwm p {
     font-size: 15px;
+}
+
+@media screen and (max-width: 1920px){
+    .wrapper h1 {
+        font-size: 5vw;
+    }
 }
 
 @media screen and (max-width: 1600px) {

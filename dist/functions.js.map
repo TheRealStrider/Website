@@ -1,1 +1,0 @@
-{"version":3,"file":"functions.js","names":["MyMod","window","open"],"sources":["../JS/functions.js"],"sourcesContent":["function MyMod() {\r\n    window.open(\"projects/coloredwoodmod.html\", \"_self\")\r\n}"],"mappings":";;AAAA,SAASA,KAAKA,CAAA,EAAG;EACbC,MAAM,CAACC,IAAI,CAAC,8BAA8B,EAAE,OAAO,CAAC;AACxD"}
