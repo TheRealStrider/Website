@@ -25,8 +25,8 @@
             <span class="logo">Strider Studios</span>
             <nav>
                 <ul class="nav__links">
-                    <li><a hx-post="/html/home-page-content.html" hx-target="#webpage">Home</a></li>
-                    <li><a hx-post="/html/projects.html" hx-target="#webpage">Projects</a></li>
+                    <li><a hx-get="/html/home-page-content.html" hx-target="#webpage">Home</a></li>
+                    <li><a hx-get="/html/projects.html" hx-target="#webpage">Projects</a></li>
                 </ul>
             </nav>
             
@@ -34,8 +34,8 @@
             <div class="overlay">
                 <span class="close" onclick="closeOverlay()">&times;</span>
                 <div class="overlay__content">
-                    <a class="closelink" hx-post="/html/home-page-content.html" hx-target="#webpage" onclick="closeOverlay()">Home</a>
-                    <a class="closelink" hx-post="/html/projects.html" hx-target="#webpage" onclick="closeOverlay()">Projects</a>
+                    <a class="closelink" hx-get="/html/home-page-content.html" hx-target="#webpage" onclick="closeOverlay()">Home</a>
+                    <a class="closelink" hx-get="/html/projects.html" hx-target="#webpage" onclick="closeOverlay()">Projects</a>
                     <br>
                     <br>
                     <span>Socials</span>
@@ -49,7 +49,7 @@
         </header>
         <!--END OF NAVBAR-->
         <!--Webpage-->
-        <div id="webpage" class="flexbox" hx-post="/html/home-page-content.html" hx-trigger="load"></div>
+        <div id="webpage" class="flexbox" hx-get="/html/home-page-content.html" hx-trigger="load"></div>
         <!--NavBar-->
         <footer>
             <span class="logo">Strider Studios</span>
