@@ -1,17 +1,18 @@
 /*font-family: 'Secular One', sans-serif;*/
 /*font-family: 'Courgette', cursive;*/
+/*font-family: 'Ubuntu', sans-serif;*/
 
 body {
     background-color: #161616;
 }
 
-.flexbox {
+.flexbox2 {
     display: flex;
     height: 90em;
     flex-direction:column;
 }
 
-.wrapper h1 {
+.wrapper3 h1 {
     display: block;
     color: #edf0f1;
     font-family: 'Courgette', cursive;
@@ -24,6 +25,13 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+#project a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
 .works {
     display: flex;
     flex-direction: row;
@@ -40,7 +48,6 @@ body {
     text-align: center;
     padding: 20px 0 20px 0;
     background-color: rgba(0, 136, 169, 0.2);
-    cursor: pointer;
 }
 
 #cwm h2 {
@@ -58,7 +65,7 @@ body {
 }
 
 @media screen and (max-width: 1920px){
-    .wrapper h1 {
+    .wrapper3 h1 {
         font-size: 5vw;
     }
 }
@@ -71,7 +78,7 @@ body {
 
 @media screen and (max-width: 912px) {
 
-    .wrapper h1 {
+    .wrapper3 h1 {
         font-size: 7vw;
     }
 
@@ -82,7 +89,7 @@ body {
 
 @media screen and (max-width: 600px) {
 
-    .wrapper h1 {
+    .wrapper3 h1 {
         font-size: 13vw;
     }
 
@@ -101,7 +108,7 @@ body {
 
 @media screen and (max-width: 280px) {
 
-    .wrapper h1 {
+    .wrapper3 h1 {
         font-size: 15vw;
     }
 

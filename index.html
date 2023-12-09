@@ -3,18 +3,21 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Home</title>
+        <title>Strider Studios</title>
         <meta name="description" content="Content for Strider Studios">
         <meta name="keywords" content="Strider Studios, StriderStudios, Strider, HTML, CSS, JavaScript, Minecraft, Programming, Coding, GitHub, Discord">
         <meta name="author" content="TRStrider">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="pictures/favicon.ico">
         <link rel="stylesheet" href="css/navbar.css">
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/project.css">
         <!--FONTS-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="preload" href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <link rel="preload" href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" as="style" onload="this.onload=null; this.rel='stylesheet'">
     </head>
     <body>
         <!--NavBar-->
@@ -22,44 +25,31 @@
             <span class="logo">Strider Studios</span>
             <nav>
                 <ul class="nav__links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="projects.html">Projects</a></li>
+                    <li><a hx-post="/html/home-page-content.html" hx-target="#webpage">Home</a></li>
+                    <li><a hx-post="/html/projects.html" hx-target="#webpage">Projects</a></li>
                 </ul>
             </nav>
             
-            <p class="menu cta">Menu</p>
+            <p class="menu cta" onclick="openOverlay()">Menu</p>
             <div class="overlay">
-                <span class="close">&times;</span>
+                <span class="close" onclick="closeOverlay()">&times;</span>
                 <div class="overlay__content">
-                    <a href="index.html">Home</a>
-                    <a href="projects.html">Projects</a>
+                    <a class="closelink" hx-post="/html/home-page-content.html" hx-target="#webpage" onclick="closeOverlay()">Home</a>
+                    <a class="closelink" hx-post="/html/projects.html" hx-target="#webpage" onclick="closeOverlay()">Projects</a>
                     <br>
                     <br>
                     <span>Socials</span>
                     <ul>
                         <li><a href="https://twitter.com/The_RealStrider" target="_blank">Twitter</a></li>
                         <li><a href="https://www.youtube.com/c/TheRealStrider" target="_blank">YouTube</a></li>
-                        <li><a href="https://discord.gg/NNYh4gR6hv" target="_blank">Discord</a></li>
+                        <li><a href="https://discord.gg/g996zvHDq4" target="_blank">Discord</a></li>
                     </ul>
                 </div>
             </div>
         </header>
         <!--END OF NAVBAR-->
         <!--Webpage-->
-        <div class="flexbox">
-            <!--First element-->
-            <div class="wrapper">
-                <h1>Strider Studios</h1>
-                <p>Welcome to Strider Studios, home to the creations made by TheRealStrider. <br>
-                    Why not look around and see what I got in store for you?</p>
-            </div>
-            <!--Second element-->
-            <div class="wrapper2">
-                    <h2>Welcome to Strider Studios!</h2>
-                <p>Hello there traveller! Welcome to a website showcasing all the things I have made throughout the years. My goal is to have fun creating things others can enjoy. This can be as simple as a mod for Minecraft to a game that you can play. This website alone is a project for me and a way to show what I have done for others to see. Can't wait for you to see the projects, go ahead and check them out!</p>
-                <img src="pictures/logo.webp" width="800" height="800" alt="Logo">
-            </div>
-        </div>
+        <div id="webpage" class="flexbox" hx-post="/html/home-page-content.html" hx-trigger="load"></div>
         <!--NavBar-->
         <footer>
             <span class="logo">Strider Studios</span>
@@ -68,11 +58,20 @@
                     <li class="FLhead">Socials</li>
                     <li><a href="https://twitter.com/The_RealStrider" target="_blank">Twitter</a></li>
                     <li><a href="https://www.youtube.com/c/TheRealStrider" target="_blank">YouTube</a></li>
-                    <li><a href="https://discord.gg/NNYh4gR6hv" target="_blank">Discord</a></li>
+                    <li><a href="https://discord.gg/g996zvHDq4" target="_blank">Discord</a></li>
                 </ul>
             </nav>
         </footer>
-        <!--Mobile-->
-        <script type="text/javascript" src="JS/mobile.js"></script>
+        <!--HTMX-->
+        <script src="JS/htmx.min.js" defer></script>
+        <script>
+            const overlay = document.querySelector('.overlay');
+            function openOverlay() {
+                overlay.classList.add('overlay--active');
+            }
+            function closeOverlay() {
+                overlay.classList.remove('overlay--active');
+            }
+        </script>
     </body>
 </html>

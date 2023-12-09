@@ -59,6 +59,7 @@ footer {
   display: inline-block;
   padding-bottom: 0.25rem; /* defines the space between text and underline */
   position: relative;
+  cursor: pointer;
 }
 
 .nav__links li a::before {
